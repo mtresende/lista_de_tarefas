@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    margin: 80px auto;
+    max-width: 640px;
+    font-family: sans-serif;
+    justify-content: space-between;
+}
+
+.container h1{
+    margin-bottom: 16px;
+}
+
+.container input{
+    padding: 8px;
+    font-size: 16px;
+}
+
+.container button{
+    font-size: 16px;
+    padding: 8px;
+}
+
+.container button:hover{
+    cursor: pointer;
+}
+
+.container ul{
+    margin-top: 16px;
+    margin-left: 32px;
+    font-size: 18px;
+}
+
+.riscado {
+    text-decoration: line-through;
+}
+
+li:hover{
+    cursor: pointer;
+}
